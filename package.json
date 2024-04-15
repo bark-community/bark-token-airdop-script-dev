@@ -1,0 +1,23 @@
+{
+  "name": "bark-token-airdop-script-dev",
+  "version": "1.0.0",
+  "description": "TypeScript for performing an airdrop of BARK tokens on the Solana blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "BARK Protocol",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.3",
+    "@solana/web3.js": "^1.91.4",
+    "dotenv": "^16.4.5",
+    "pino": "^8.20.0"
+  }
+}
